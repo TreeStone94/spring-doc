@@ -1,0 +1,19 @@
+= User API Documentation
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:sectlinks:
+
+== 개요
+
+이 문서는 User API의 사용법을 설명합니다.
+
+== 사용자 API
+
+=== 사용자 조회
+
+사용자 ID로 사용자 정보를 조회합니다.
+
+operation::user-get[snippets='curl-request,http-request,path-parameters,request-headers,http-response,response-headers,response-fields']
